@@ -31,4 +31,46 @@ footer{
 /* Header */
 #logo{
     display: flex;
+    align-items: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 66% auto auto auto;
+    margin-top: -8px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
+    font-weight: bold;
+}
+a.nav:hover ,a.login:hover{
+    border-top: 2px solid #0065fc;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #0065fc;
+    padding-top: 15px;
+    font-weight: bold;
+}
+header{
+    font-size: 100%;
+}
+/* Search */
+.searchbar{
+    display: inline-flex;
+    max-width: 100%;
+    height: 50px;
+}
+.searchbaricon{
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
 }
