@@ -1,9 +1,6 @@
-/**PAGE SET UP**/
-
 html{
     font-size: 100%;
 }
-
 .blocpage{
     max-width: 1440px;
     margin: auto;
@@ -11,23 +8,18 @@ html{
     font-family: "Raleway", "Arial", "sans-serif";
     scroll-behavior: smooth;
 }
-
 .body{
     margin: 0;
     box-sizing: border-box;
 }
-
 section img{
     border-style: none;
 }
-
 /**HEADER**/
-    
 header{
     font-size: 100%;
     display: block;
 }
-    
 .menu{
     display: grid;
     grid-template-columns: 66% auto auto auto;
@@ -35,16 +27,13 @@ header{
     margin-right: 10px;
     font-weight: 300;   
  }
-    
 .logo{
     display: flex;
     align-items: center;
 }
-    
 a.nav:hover, a.navact:hover ,a.login:hover{
     border-top: 2px solid #0065FC;
 }
-
 .nav, .navact{
     display: flex;
     justify-content: center;
@@ -52,7 +41,6 @@ a.nav:hover, a.navact:hover ,a.login:hover{
     color: black;
     padding-top: 15px;
 }
-    
 .login{
     display: flex;
     justify-content: center;
@@ -61,15 +49,12 @@ a.nav:hover, a.navact:hover ,a.login:hover{
     padding-top: 15px;
     font-weight: bold;
 } 
-
 /**SEARCH BAR**/
-
 .searchbar{
     display: inline-flex;
     max-width: 100%;
     height: 50px;
 }
-
 .searchbaricon{
     display: flex;
     background-color: #F2F2F2;
@@ -78,7 +63,6 @@ a.nav:hover, a.navact:hover ,a.login:hover{
     justify-content: center;
     align-items: center;
 }
-
 .searchform{
     border-left: none;
     border-right: none;
@@ -90,7 +74,6 @@ a.nav:hover, a.navact:hover ,a.login:hover{
     font-weight: bold;
     text-align: center;
 }
-
 .submitinput{
     background-color: #0065FC;
     color: white;
@@ -101,7 +84,6 @@ a.nav:hover, a.navact:hover ,a.login:hover{
     font-size: 1rem;
     cursor: pointer;
 }
-
 .submitinput > i{
     display: none;
 }
@@ -629,8 +611,6 @@ a{
         padding-left: 15px;
     }
 
-/**RESPONSIVE HEADER**/
-
 /**RESPONSIVE FILTRES**/
     .searchbar{
         display: flex;
@@ -783,8 +763,6 @@ a{
         padding-left: 15px;
     }
 
-/**RESPONSIVE HEADER**/
-    
 /**RESPONSIVE FILTRES**/
     .searchbar{
         display: flex;
