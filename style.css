@@ -30,6 +30,8 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    font-size:16px ;
+    
 }
 a.nav:hover, a.navact:hover ,a.login:hover{
     border-top: 2px solid #0065FC;
