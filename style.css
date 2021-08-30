@@ -298,12 +298,6 @@ a{
     border-radius: 1rem 0 0 1rem;
 }
 
-.textcontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 4px;
-}
 
 .poptitles{
     font-weight: bold;
